@@ -45,6 +45,7 @@ CCI_label_ihc <- CCI_label(CCI_score_ihc ) # calculate the CCI label with scaled
 CCI_label_ihc # showing the CCI label result
 
 ## If you have any problems and troubles, please contact us in time !
+## Meng Zhou: biofomeng@hotmail.com
 
 
 
