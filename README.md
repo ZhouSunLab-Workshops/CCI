@@ -1,5 +1,5 @@
 #  Welcome to use CCI on SCLC patients
-![image](https://github.com/ZhouSunLab-Workshops/CCI/blob/main/SCLC%20graphic%20abstract.png)
+![image][(https://github.com/ZhouSunLab-Workshops/CCI/blob/main/SCLC%20graphic%20abstract.png)](https://github.com/zhangzc-bio/CCI-png/blob/main/SCLC%20graphic%20abstract.png)
 
 ### CCI using machine learning method as a personalized prognosticator of immune subtyping which could accurately predict the survival and therapeutic response of SCLC patients in multicenter bulk transcriptomic data cohorts and immunohistochemistry cohorts. 
 
