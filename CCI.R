@@ -38,9 +38,6 @@ data_read <- function(x){read.table(x,stringsAsFactors = F,row.names = 1,sep = "
 rna_scale_largesample <- function(x){apply(x,2,scale)}
 ihc_scale_largesample <- function(x){apply(x,2,scale)}
 
-#ihc_scale_singlesample_CCL5 <- function(x){scale(x,center = 137.955,scale = 70.94991)}
-#ihc_scale_singlesample_CXCL9 <- function(x){scale(x,center = 182.1193,scale = 46.05845)}
-
 CCI <- function(x){predict(mxgb4m,x,type = "response")}
 
 CCI_label <- function(x){
