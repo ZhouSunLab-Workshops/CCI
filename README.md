@@ -17,7 +17,6 @@ If you want to use CCI smoothly, please strictly follow the instructions given b
 
 # Exsample in R
  ```jsx
-setwd("C:\\...") # set your work path
 source("CCI.R") # loading the CCI model
 data_rna <- data_read("RNA_testing_profile.txt")  # loading RNA profiles
 data_ihc <- data_read("IHC_testing_profile.txt")  # loading IHC profiles
