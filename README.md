@@ -20,10 +20,10 @@ If you want to use CCI smoothly, please strictly follow the instructions given b
 source("CCI.R") # loading the CCI model
 data_rna <- data_read("RNA_testing_profile.txt")  # loading RNA profiles
 data_ihc <- data_read("IHC_testing_profile.txt")  # loading IHC profiles
-CCI(data_rna) # calculate the CCI (continuous) with scaled RNA profiles
-CCI(data_ihc) # calculate the CCI (continuous) with scaled IHC profiles
-CCI_label(data_rna) # calculate the CCI label with scaled RNA profiles
-CCI_label(data_ihc) # calculate the CCI label with scaled IHC profiles
+CCI(data_rna) # calculate the CCI (continuous) with RNA profiles
+CCI(data_ihc) # calculate the CCI (continuous) with IHC profiles
+CCI_label(data_rna) # predict the CCI label with RNA profiles
+CCI_label(data_ihc) # predict the CCI label with IHC profiles
 ```
 
 ## If you have any problems and troubles, please contact us in time !  <br>  Professor Meng Zhou: biofomeng@hotmail.com
