@@ -16,37 +16,24 @@
 ### ⑤ CCI model：the CCI (continuous) is calculated with " CCI() " function ; the CCI label is calculated with " CCI_label() " function.
 
 ## Exsample in R
-####
+ ```jsx
 setwd("C:\\...") # set your work path
-####
 source("CCI.R") # loading the CCI model
-####
 data_rna <- data_read("RNA_testing_profile.txt")  # loading RNA profiles
-####
 data_ihc <- data_read("IHC_testing_profile.txt")  # loading IHC profiles
-####
 data_rna_scale <-  rna_scale_largesample(data_rna) # scale the RNA profiles before CCI model input
-####
 data_ihc_scale <-  ihc_scale_largesample(data_ihc) # scale the IHC profiles before CCI model input
-####
 CCI_score_rna <- CCI(data_rna_scale ) # calculate the CCI (continuous) with scaled RNA profiles
-####
 CCI_score_rna # showing the CCI result
-####
 CCI_score_ihc <- CCI(data_ihc_scale ) # calculate the CCI (continuous) with scaled IHC profiles
-####
 CCI_score_ihc # showing the CCI result
-####
 CCI_label_rna <- CCI_label(CCI_score_rna ) # calculate the CCI label with scaled RNA profiles
-####
 CCI_label_rna # showing the CCI label result
-####
 CCI_label_ihc <- CCI_label(CCI_score_ihc ) # calculate the CCI label with scaled IHC profiles
-####
 CCI_label_ihc # showing the CCI label result
+```
 
-## If you have any problems and troubles, please contact us in time !
-## Meng Zhou: biofomeng@hotmail.com
+## If you have any problems and troubles, please contact us in time !  <br>  Professor Meng Zhou: biofomeng@hotmail.com
 
 
 
